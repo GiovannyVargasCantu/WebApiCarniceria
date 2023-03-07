@@ -12,6 +12,8 @@ namespace WebApiCarniceria
         }
 
         public DbSet<Producto> Producto { get; set; }
+        
+        public DbSet<TipoProducto> TipoProductos { get; set; }
     }
     
 }
